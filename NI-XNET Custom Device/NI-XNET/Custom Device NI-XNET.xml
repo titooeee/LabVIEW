@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
+  <AddMenu>
+    <eng>National Instruments::NI-XNET</eng>
+    <loc>National Instruments::NI-XNET</loc>
+  </AddMenu>
+  <Version>1.0</Version>
+  <Type>Inline HW Interface</Type>
+  <MaxOccurrence>2474</MaxOccurrence>
+  <MainPageGUID>DD00A4ED-A597-67B2-0726-A70B0D32B630</MainPageGUID>
+  <InitializationVI>
+    <Type>Action</Type>
+    <Item2Launch>
+      <Type>To App Data Dir</Type>
+		<Path>Custom Devices\NI-XNET\NI-XNET Configuration.llb\NI-XNET Initialization VI.vi</Path>
+    </Item2Launch>
+  </InitializationVI>
+  <CustomDeviceVI>
+    <Source>
+      <Type>To App Data Dir</Type>
+		<Path>Custom Devices\NI-XNET\NI-XNET Engine.llb\NI-XNET RT Driver VI.vi</Path>
+    </Source>
+    <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\NI-XNET\NI-XNET Engine.llb\NI-XNET RT Driver VI.vi</RealTimeSystemDestination>
+	</CustomDeviceVI>
+  <Dependencies />
+  <Pages>
+    <Page>
+      <Name>
+        <eng>NI-XNET</eng>
+        <loc>NI-XNET</loc>
+      </Name>
+      <GUID>DD00A4ED-A597-67B2-0726-A70B0D32B630</GUID>
+      <Glyph>
+			<Type>To App Data Dir</Type>
+			<Path>Custom Devices\NI-XNET\Glyphs\Cluster.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To App Data Dir</Type>
+		<Path>Custom Devices\NI-XNET\NI-XNET Configuration.llb\NI-XNET Main Page.vi</Path>
+      </Item2Launch>
+	  <ActionVIOnDownload>
+        <Type>To App Data Dir</Type>
+		<Path>Custom Devices\NI-XNET\NI-XNET Configuration.llb\Action VI on Download.vi</Path>
+      </ActionVIOnDownload>
+    </Page>
+<Page>
+      <Name>
+        <eng>Incoming Messages</eng>
+        <loc>Incoming Messages</loc>
+      </Name>
+      <GUID>AF1E7C91-58F7-8592-2583-2DF49433B714</GUID>
+      <Glyph>
+			<Type>To App Data Dir</Type>
+			<Path>Custom Devices\NI-XNET\Glyphs\frame in.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To App Data Dir</Type>
+		<Path>Custom Devices\NI-XNET\NI-XNET Configuration.llb\Incoming Messages.vi</Path>
+      </Item2Launch>
+    </Page>
+<Page>
+      <Name>
+        <eng>Outgoing Messages</eng>
+        <loc>Outgoing Messages</loc>
+      </Name>
+      <GUID>A8F00E9F-B8AC-2610-DD3B-A3A9B1EC9876</GUID>
+      <Glyph>
+			<Type>To App Data Dir</Type>
+			<Path>Custom Devices\NI-XNET\Glyphs\frame out.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To App Data Dir</Type>
+		<Path>Custom Devices\NI-XNET\NI-XNET Configuration.llb\Outgoing Messages.vi</Path>
+      </Item2Launch>
+    </Page>
+	<Page>
+      <Name>
+        <eng>Incoming Signals</eng>
+        <loc>Incoming Signals</loc>
+      </Name>
+      <GUID>2CB77783-E9B4-8CA1-3FA7-EF8AFE10A40F</GUID>
+      <Glyph>
+			<Type>To App Data Dir</Type>
+			<Path>Custom Devices\NI-XNET\Glyphs\frame.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To App Data Dir</Type>
+		<Path>Custom Devices\NI-XNET\NI-XNET Configuration.llb\Incoming Signals.vi</Path>
+      </Item2Launch>
+    </Page>
+<Page>
+      <Name>
+        <eng>Outgoing Signals</eng>
+        <loc>Outgoing Signals</loc>
+      </Name>
+      <GUID>64D50EA1-B7E6-43CE-3984-B9E6EAA31D39</GUID>
+      <Glyph>
+			<Type>To App Data Dir</Type>
+			<Path>Custom Devices\NI-XNET\Glyphs\frame.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To App Data Dir</Type>
+		<Path>Custom Devices\NI-XNET\NI-XNET Configuration.llb\Outgoing Signals.vi</Path>
+      </Item2Launch>
+	  <ActionVIOnLoad>
+        <Type>To App Data Dir</Type>
+        <Path>Custom Devices\NI-XNET\NI-XNET Configuration.llb\Enable Channel Load.vi</Path>
+      </ActionVIOnLoad>
+	  <ActionVIOnSave>
+        <Type>To App Data Dir</Type>
+        <Path>Custom Devices\NI-XNET\NI-XNET Configuration.llb\Enable Channel Save.vi</Path>
+      </ActionVIOnSave>
+    </Page>
+<Page>
+      <Name>
+        <eng>Channel Page</eng>
+        <loc>Channel Page</loc>
+      </Name>
+      <GUID>F6D7EE9D-9850-C9D0-D0D9-43EE9CFDC148</GUID>
+      <Glyph>
+			<Type>To App Data Dir</Type>
+			<Path>Custom Devices\NI-XNET\Glyphs\signal.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To App Data Dir</Type>
+		<Path>Custom Devices\NI-XNET\NI-XNET Configuration.llb\Channel Page.vi</Path>
+      </Item2Launch>
+    </Page>
+  </Pages>
+  <CustomXML>
+    <Dummy></Dummy>
+  </CustomXML>
+</CustomDevice>
